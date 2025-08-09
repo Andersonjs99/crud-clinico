@@ -53,7 +53,7 @@ if (!isset($_SESSION['usuario_id'])) {
 </div>
 
 <footer class="text-center mt-5 text-muted">
-  <p>🩺 Cuidar da saúde é um ato de amor. — Sistema Clínico</p>
+  <p>🩺 Cuidar da saúde é um ato de amor.</p>
 </footer>
 
 </body>

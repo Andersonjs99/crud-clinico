@@ -32,7 +32,7 @@ include '../conexao.php';
         <input type="submit" value="Salvar" class="btn btn-success">
     </form>
     <br>
-   <a href="../index.php" class="btn btn-primary btn-sm">Voltar ao Início</a>
+   <a href="../menu.php" class="btn btn-primary btn-sm">Voltar ao Início</a>
 </body>
 </html>
 

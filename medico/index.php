@@ -47,16 +47,22 @@ $result = $conn->query($sql);
               <td><?= htmlspecialchars($medico['nome']) ?></td>
               <td><?= htmlspecialchars($medico['especialidade']) ?></td>
               <td>
+              <div class="btn-group" role="group">
+                <a href="visualizar.php?id=<?= urlencode($medico['id']) ?>" 
+                 class="btn btn-info btn-sm mx-1" title="Visualizar">
+                 Visualizar
+                </a>  
                 <a href="editar.php?id=<?= urlencode($medico['id']) ?>" 
-                   class="btn btn-primary btn-sm" title="Editar">
-                  <i class="fa-solid fa-pen"></i>
+                class="btn btn-primary btn-sm mx-1" title="Editar">
+                Editar
                 </a>
                 <a href="deletar.php?id=<?= urlencode($medico['id']) ?>" 
-                   class="btn btn-danger btn-sm" 
-                   onclick="return confirm('Tem certeza que deseja excluir este médico?')" 
-                   title="Excluir">
-                  <i class="fa-solid fa-trash"></i>
+                class="btn btn-danger btn-sm mx-1" 
+                onclick="return confirm('Tem certeza que deseja excluir este médico?')" 
+                title="Excluir">
+                Excluir
                 </a>
+</div>
               </td>
             </tr>
           <?php endwhile; ?>

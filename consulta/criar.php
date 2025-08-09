@@ -43,7 +43,7 @@ $pacientes = $conn->query("SELECT * FROM paciente");
 
         <button type="submit" class="btn btn-success">Salvar</button>
     </form>
-       <a href="../index.php" class="btn btn-primary btn-sm">Voltar ao Início</a>
+       <a href="../menu.php" class="btn btn-primary btn-sm">Voltar ao Início</a>
 </div>
 </body>
 </html>
